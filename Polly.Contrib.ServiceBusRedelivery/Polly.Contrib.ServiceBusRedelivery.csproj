@@ -5,7 +5,10 @@
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
         <RootNamespace>Polly.Contrib.ServiceBusRedelivery</RootNamespace>
-        <PackageId>Polly.Contrib.ServiceBusRedelivery</PackageId>
+        <PackageId>smfields.Polly.Contrib.ServiceBusRedelivery</PackageId>
+        <Authors>Sam Fields</Authors>
+        <PackageProjectUrl>https://github.com/smfields/Polly.Contrib.ServiceBusRedelivery</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/smfields/Polly.Contrib.ServiceBusRedelivery</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
