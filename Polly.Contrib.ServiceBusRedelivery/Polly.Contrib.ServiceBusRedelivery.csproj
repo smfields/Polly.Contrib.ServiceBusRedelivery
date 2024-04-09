@@ -7,13 +7,20 @@
         <RootNamespace>Polly.Contrib.ServiceBusRedelivery</RootNamespace>
         <PackageId>smfields.Polly.Contrib.ServiceBusRedelivery</PackageId>
         <Authors>Sam Fields</Authors>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageProjectUrl>https://github.com/smfields/Polly.Contrib.ServiceBusRedelivery</PackageProjectUrl>
         <RepositoryUrl>https://github.com/smfields/Polly.Contrib.ServiceBusRedelivery</RepositoryUrl>
+        <DebugType>embedded</DebugType>
+        <DebugSymbols>true</DebugSymbols>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.17.4" />
-      <PackageReference Include="Polly.Core" Version="8.3.1" />
+        <None Include="../../README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.0.0" />
+      <PackageReference Include="Polly.Core" Version="8.2.0" />
     </ItemGroup>
     
     <ItemGroup>
