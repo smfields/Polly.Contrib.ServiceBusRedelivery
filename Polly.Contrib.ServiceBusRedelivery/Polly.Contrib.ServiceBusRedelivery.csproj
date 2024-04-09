@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+        <RootNamespace>Polly.Contrib.ServiceBusRedelivery</RootNamespace>
+        <PackageId>Polly.Contrib.ServiceBusRedelivery</PackageId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.17.4" />
+      <PackageReference Include="Polly.Core" Version="8.3.1" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <InternalsVisibleTo Include="Polly.Contrib.ServiceBusRedelivery.Tests" />
+    </ItemGroup>
+
+</Project>
